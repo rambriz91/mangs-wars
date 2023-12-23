@@ -6,8 +6,7 @@ import {
   createHttpLink,
 } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
-
-import NavBar from "./components/NavBar";
+import NavBar from './components/NavBar';
 import { StoreProvider } from "./utils/GlobalState";
 
 const httpLink = createHttpLink({

@@ -1,4 +1,7 @@
+import { useAuthRedirect } from "../utils/hooks";
+
 const Home = () => {
+  useAuthRedirect();
   return (
     <div className="container my-2">
       <p>
