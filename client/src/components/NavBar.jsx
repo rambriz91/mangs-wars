@@ -1,6 +1,6 @@
 import Auth from '../utils/auth';
 import { Link } from 'react-router-dom';
-import Logo from '/public/images/aw-logo.png/';
+import Logo from '/public/images/MW-logo.png';
 
 const NavBar = () => {
   const showNavigation = () => {
@@ -18,8 +18,8 @@ const NavBar = () => {
     }
 
     return (
-      <ul className='flex-row'>
-        <li className='mx-1'>
+      <ul className='flex-row font-[anton] text-xl'>
+        <li className='mx-1 '>
           <Link to='/signup'>Signup</Link>
         </li>
         <li className='mx-1'>
@@ -36,7 +36,7 @@ const NavBar = () => {
           <img src={Logo} alt="Mang's Wars" />
         </Link>
       </div>
-      <h1 className='text-white flex flex-wrap content-center'>Mang&apos;s Wars</h1>
+      <img src="/images/MangsWarDmg.png" alt="Mangs War" />
 
       <nav className='flex flex-wrap content-end'>{showNavigation()}</nav>
     </header>

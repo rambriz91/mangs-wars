@@ -4,13 +4,18 @@
 
 :root {
   --primary: #232F3E;
+  --olive: #233e23;
+  --lightolive: #315731;
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #272f32;
+  --star-orange: #F68E2B;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
+  --anton: 'Anton', sans-serif;
+  
 }
 
 * {
@@ -84,7 +89,7 @@ a:hover {
 }
 
 header {
-  background: var(--primary);
+  background: var(--lightolive);
 }
 
 header a {
